@@ -1,0 +1,925 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Paginator",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "homebuilder.asgi",
+        "description": "homebuilder.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "homebuilder.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "homebuilder.settings",
+        "description": "homebuilder.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-58dpd)*&$!sk#ent$ai7zqk^t0p^fimem(sxh0!rw8lg+-0*hg'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "homebuilder.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "homebuilder.settings",
+        "description": "homebuilder.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-58dpd)*&$!sk#ent$ai7zqk^t0p^fimem(sxh0!rw8lg+-0*hg'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "homebuilder.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "homebuilder.settings",
+        "description": "homebuilder.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "homebuilder.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "homebuilder.settings",
+        "description": "homebuilder.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'main',",
+        "detail": "homebuilder.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "homebuilder.settings",
+        "description": "homebuilder.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'main',\n]\nMIDDLEWARE = [",
+        "detail": "homebuilder.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "homebuilder.settings",
+        "description": "homebuilder.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'homebuilder.urls'",
+        "detail": "homebuilder.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "homebuilder.settings",
+        "description": "homebuilder.settings",
+        "peekOfCode": "ROOT_URLCONF = 'homebuilder.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, 'main/templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "homebuilder.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "homebuilder.settings",
+        "description": "homebuilder.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, 'main/templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',\n                'django.contrib.messages.context_processors.messages',",
+        "detail": "homebuilder.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "homebuilder.settings",
+        "description": "homebuilder.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'homebuilder.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "homebuilder.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "homebuilder.settings",
+        "description": "homebuilder.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "homebuilder.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "homebuilder.settings",
+        "description": "homebuilder.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "homebuilder.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "homebuilder.settings",
+        "description": "homebuilder.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'main/static')]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field",
+        "detail": "homebuilder.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "homebuilder.settings",
+        "description": "homebuilder.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'main/static')]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "homebuilder.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "homebuilder.settings",
+        "description": "homebuilder.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'main/static')]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'",
+        "detail": "homebuilder.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "homebuilder.settings",
+        "description": "homebuilder.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'main/static')]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'",
+        "detail": "homebuilder.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "homebuilder.settings",
+        "description": "homebuilder.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'main/static')]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'sizning.email@gmail.com'",
+        "detail": "homebuilder.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "homebuilder.settings",
+        "description": "homebuilder.settings",
+        "peekOfCode": "STATICFILES_DIRS = [os.path.join(BASE_DIR, 'main/static')]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'sizning.email@gmail.com'\nEMAIL_HOST_PASSWORD = 'sizning-parolingiz'",
+        "detail": "homebuilder.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "homebuilder.settings",
+        "description": "homebuilder.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'sizning.email@gmail.com'\nEMAIL_HOST_PASSWORD = 'sizning-parolingiz'",
+        "detail": "homebuilder.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_BACKEND",
+        "kind": 5,
+        "importPath": "homebuilder.settings",
+        "description": "homebuilder.settings",
+        "peekOfCode": "EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'sizning.email@gmail.com'\nEMAIL_HOST_PASSWORD = 'sizning-parolingiz'",
+        "detail": "homebuilder.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST",
+        "kind": 5,
+        "importPath": "homebuilder.settings",
+        "description": "homebuilder.settings",
+        "peekOfCode": "EMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'sizning.email@gmail.com'\nEMAIL_HOST_PASSWORD = 'sizning-parolingiz'",
+        "detail": "homebuilder.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_PORT",
+        "kind": 5,
+        "importPath": "homebuilder.settings",
+        "description": "homebuilder.settings",
+        "peekOfCode": "EMAIL_PORT = 587\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'sizning.email@gmail.com'\nEMAIL_HOST_PASSWORD = 'sizning-parolingiz'",
+        "detail": "homebuilder.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_USE_TLS",
+        "kind": 5,
+        "importPath": "homebuilder.settings",
+        "description": "homebuilder.settings",
+        "peekOfCode": "EMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'sizning.email@gmail.com'\nEMAIL_HOST_PASSWORD = 'sizning-parolingiz'",
+        "detail": "homebuilder.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_USER",
+        "kind": 5,
+        "importPath": "homebuilder.settings",
+        "description": "homebuilder.settings",
+        "peekOfCode": "EMAIL_HOST_USER = 'sizning.email@gmail.com'\nEMAIL_HOST_PASSWORD = 'sizning-parolingiz'",
+        "detail": "homebuilder.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_PASSWORD",
+        "kind": 5,
+        "importPath": "homebuilder.settings",
+        "description": "homebuilder.settings",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = 'sizning-parolingiz'",
+        "detail": "homebuilder.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "homebuilder.urls",
+        "description": "homebuilder.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),  # Django admin paneli uchun yo‘l\n    path('', include('main.urls')),  # `main` ilovasining URL’lari\n] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "detail": "homebuilder.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "homebuilder.wsgi",
+        "description": "homebuilder.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "homebuilder.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "main.migrations.0001_initial",
+        "description": "main.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='BlogPost',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('title', models.CharField(max_length=200)),",
+        "detail": "main.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "main.migrations.0002_testimonial",
+        "description": "main.migrations.0002_testimonial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('main', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Testimonial',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=100)),",
+        "detail": "main.migrations.0002_testimonial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "main.migrations.0003_quoterequest",
+        "description": "main.migrations.0003_quoterequest",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('main', '0002_testimonial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='QuoteRequest',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=100)),",
+        "detail": "main.migrations.0003_quoterequest",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectAdmin",
+        "kind": 6,
+        "importPath": "main.admin",
+        "description": "main.admin",
+        "peekOfCode": "class ProjectAdmin(admin.ModelAdmin):\n    list_display = ('title', 'category', 'date', 'client', 'location', 'created_at')\n    list_filter = ('category', 'date')\n    search_fields = ('title', 'category', 'client', 'location')\n    date_hierarchy = 'date'\n@admin.register(BlogPost)\nclass BlogPostAdmin(admin.ModelAdmin):\n    list_display = ('title', 'author', 'date', 'comments_count', 'created_at')\n    list_filter = ('date', 'author')\n    search_fields = ('title', 'author')",
+        "detail": "main.admin",
+        "documentation": {}
+    },
+    {
+        "label": "BlogPostAdmin",
+        "kind": 6,
+        "importPath": "main.admin",
+        "description": "main.admin",
+        "peekOfCode": "class BlogPostAdmin(admin.ModelAdmin):\n    list_display = ('title', 'author', 'date', 'comments_count', 'created_at')\n    list_filter = ('date', 'author')\n    search_fields = ('title', 'author')\n    date_hierarchy = 'date'\n@admin.register(Contact)\nclass ContactAdmin(admin.ModelAdmin):\n    list_display = ('name', 'email', 'subject', 'created_at')\n    search_fields = ('name', 'email', 'subject')\n    date_hierarchy = 'created_at'",
+        "detail": "main.admin",
+        "documentation": {}
+    },
+    {
+        "label": "ContactAdmin",
+        "kind": 6,
+        "importPath": "main.admin",
+        "description": "main.admin",
+        "peekOfCode": "class ContactAdmin(admin.ModelAdmin):\n    list_display = ('name', 'email', 'subject', 'created_at')\n    search_fields = ('name', 'email', 'subject')\n    date_hierarchy = 'created_at'\n@admin.register(Testimonial)\nclass TestimonialAdmin(admin.ModelAdmin):\n    list_display = ('name', 'position', 'created_at')\n    search_fields = ('name', 'position')\n    date_hierarchy = 'created_at'",
+        "detail": "main.admin",
+        "documentation": {}
+    },
+    {
+        "label": "TestimonialAdmin",
+        "kind": 6,
+        "importPath": "main.admin",
+        "description": "main.admin",
+        "peekOfCode": "class TestimonialAdmin(admin.ModelAdmin):\n    list_display = ('name', 'position', 'created_at')\n    search_fields = ('name', 'position')\n    date_hierarchy = 'created_at'",
+        "detail": "main.admin",
+        "documentation": {}
+    },
+    {
+        "label": "MainConfig",
+        "kind": 6,
+        "importPath": "main.apps",
+        "description": "main.apps",
+        "peekOfCode": "class MainConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'main'",
+        "detail": "main.apps",
+        "documentation": {}
+    },
+    {
+        "label": "ContactForm",
+        "kind": 6,
+        "importPath": "main.forms",
+        "description": "main.forms",
+        "peekOfCode": "class ContactForm(forms.Form):\n    name = forms.CharField(max_length=100, required=True, label=\"Full Name\")\n    email = forms.EmailField(required=True, label=\"Email Address\")\n    subject = forms.CharField(max_length=200, required=True, label=\"Subject\")\n    message = forms.CharField(widget=forms.Textarea, required=True, label=\"Message\")",
+        "detail": "main.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "kind": 6,
+        "importPath": "main.models",
+        "description": "main.models",
+        "peekOfCode": "class Project(models.Model):\n    title = models.CharField(max_length=200)\n    category = models.CharField(max_length=100)\n    image = models.ImageField(upload_to='projects/')\n    description = models.TextField()\n    date = models.DateField()\n    client = models.CharField(max_length=100)\n    location = models.CharField(max_length=200)\n    created_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self):",
+        "detail": "main.models",
+        "documentation": {}
+    },
+    {
+        "label": "BlogPost",
+        "kind": 6,
+        "importPath": "main.models",
+        "description": "main.models",
+        "peekOfCode": "class BlogPost(models.Model):\n    title = models.CharField(max_length=200)\n    image = models.ImageField(upload_to='blog/')\n    content = models.TextField()\n    author = models.CharField(max_length=100)\n    date = models.DateField()\n    comments_count = models.IntegerField(default=0)\n    created_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return self.title",
+        "detail": "main.models",
+        "documentation": {}
+    },
+    {
+        "label": "Contact",
+        "kind": 6,
+        "importPath": "main.models",
+        "description": "main.models",
+        "peekOfCode": "class Contact(models.Model):\n    name = models.CharField(max_length=100)\n    email = models.EmailField()\n    subject = models.CharField(max_length=200)\n    message = models.TextField()\n    created_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return self.name\nclass Testimonial(models.Model):\n    name = models.CharField(max_length=100)",
+        "detail": "main.models",
+        "documentation": {}
+    },
+    {
+        "label": "Testimonial",
+        "kind": 6,
+        "importPath": "main.models",
+        "description": "main.models",
+        "peekOfCode": "class Testimonial(models.Model):\n    name = models.CharField(max_length=100)\n    position = models.CharField(max_length=100)\n    image = models.CharField(max_length=100, default='person_1.jpg')  # Rasm nomi, masalan: person_1.jpg\n    content = models.TextField()\n    created_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return self.name\nfrom django.db import models\nclass QuoteRequest(models.Model):",
+        "detail": "main.models",
+        "documentation": {}
+    },
+    {
+        "label": "QuoteRequest",
+        "kind": 6,
+        "importPath": "main.models",
+        "description": "main.models",
+        "peekOfCode": "class QuoteRequest(models.Model):\n    name = models.CharField(max_length=100)\n    email = models.EmailField()\n    subject = models.CharField(max_length=200)\n    message = models.TextField()\n    created_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return f\"Quote Request from {self.name} - {self.subject}\"\nclass Contact(models.Model):\n    name = models.CharField(max_length=100)",
+        "detail": "main.models",
+        "documentation": {}
+    },
+    {
+        "label": "Contact",
+        "kind": 6,
+        "importPath": "main.models",
+        "description": "main.models",
+        "peekOfCode": "class Contact(models.Model):\n    name = models.CharField(max_length=100)\n    email = models.EmailField()\n    subject = models.CharField(max_length=200)\n    message = models.TextField()\n    created_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return f\"Contact from {self.name} - {self.subject}\"",
+        "detail": "main.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "main.urls",
+        "description": "main.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.index, name='index'),\n    path('project/', views.project, name='project'),\n    path('about/', views.about, name='about'),\n    path('team/', views.team, name='team'),\n    path('blog/', views.blog, name='blog'),\n    path('contact/', views.contact, name='contact'),\n    path('work-single/<int:project_id>/', views.work_single, name='work_single'),\n    path('blog-single/<int:post_id>/', views.blog_single, name='blog_single'),\n    path('main/', views.main, name='main'),",
+        "detail": "main.urls",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectForm",
+        "kind": 6,
+        "importPath": "main.views",
+        "description": "main.views",
+        "peekOfCode": "class ProjectForm(forms.ModelForm):\n    class Meta:\n        model = Project\n        fields = ['title', 'category', 'image', 'description', 'date', 'client', 'location']\nclass BlogPostForm(forms.ModelForm):\n    class Meta:\n        model = BlogPost\n        fields = ['title', 'image', 'content', 'author', 'date', 'comments_count']\nclass TestimonialForm(forms.ModelForm):\n    class Meta:",
+        "detail": "main.views",
+        "documentation": {}
+    },
+    {
+        "label": "BlogPostForm",
+        "kind": 6,
+        "importPath": "main.views",
+        "description": "main.views",
+        "peekOfCode": "class BlogPostForm(forms.ModelForm):\n    class Meta:\n        model = BlogPost\n        fields = ['title', 'image', 'content', 'author', 'date', 'comments_count']\nclass TestimonialForm(forms.ModelForm):\n    class Meta:\n        model = Testimonial\n        fields = ['name', 'position', 'image', 'content']\ndef index(request):\n    projects = Project.objects.all()[:6]",
+        "detail": "main.views",
+        "documentation": {}
+    },
+    {
+        "label": "TestimonialForm",
+        "kind": 6,
+        "importPath": "main.views",
+        "description": "main.views",
+        "peekOfCode": "class TestimonialForm(forms.ModelForm):\n    class Meta:\n        model = Testimonial\n        fields = ['name', 'position', 'image', 'content']\ndef index(request):\n    projects = Project.objects.all()[:6]\n    blog_posts = BlogPost.objects.all()[:3]\n    testimonials = Testimonial.objects.all()\n    return render(request, 'index.html', {\n        'projects': projects,",
+        "detail": "main.views",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "main.views",
+        "description": "main.views",
+        "peekOfCode": "def index(request):\n    projects = Project.objects.all()[:6]\n    blog_posts = BlogPost.objects.all()[:3]\n    testimonials = Testimonial.objects.all()\n    return render(request, 'index.html', {\n        'projects': projects,\n        'blog_posts': blog_posts,\n        'testimonials': testimonials\n    })\ndef project(request):",
+        "detail": "main.views",
+        "documentation": {}
+    },
+    {
+        "label": "project",
+        "kind": 2,
+        "importPath": "main.views",
+        "description": "main.views",
+        "peekOfCode": "def project(request):\n    projects = Project.objects.all()\n    return render(request, 'project.html', {'projects': projects})\ndef about(request):\n    return render(request, 'about.html')\ndef team(request):\n    return render(request, 'team.html')\ndef blog(request):\n    blog_posts_list = BlogPost.objects.all()\n    paginator = Paginator(blog_posts_list, 6)  # Har sahifada 6 ta post",
+        "detail": "main.views",
+        "documentation": {}
+    },
+    {
+        "label": "about",
+        "kind": 2,
+        "importPath": "main.views",
+        "description": "main.views",
+        "peekOfCode": "def about(request):\n    return render(request, 'about.html')\ndef team(request):\n    return render(request, 'team.html')\ndef blog(request):\n    blog_posts_list = BlogPost.objects.all()\n    paginator = Paginator(blog_posts_list, 6)  # Har sahifada 6 ta post\n    page_number = request.GET.get('page')\n    blog_posts = paginator.get_page(page_number)\n    return render(request, 'blog.html', {'blog_posts': blog_posts})",
+        "detail": "main.views",
+        "documentation": {}
+    },
+    {
+        "label": "team",
+        "kind": 2,
+        "importPath": "main.views",
+        "description": "main.views",
+        "peekOfCode": "def team(request):\n    return render(request, 'team.html')\ndef blog(request):\n    blog_posts_list = BlogPost.objects.all()\n    paginator = Paginator(blog_posts_list, 6)  # Har sahifada 6 ta post\n    page_number = request.GET.get('page')\n    blog_posts = paginator.get_page(page_number)\n    return render(request, 'blog.html', {'blog_posts': blog_posts})\ndef contact(request):\n    if request.method == 'POST':",
+        "detail": "main.views",
+        "documentation": {}
+    },
+    {
+        "label": "blog",
+        "kind": 2,
+        "importPath": "main.views",
+        "description": "main.views",
+        "peekOfCode": "def blog(request):\n    blog_posts_list = BlogPost.objects.all()\n    paginator = Paginator(blog_posts_list, 6)  # Har sahifada 6 ta post\n    page_number = request.GET.get('page')\n    blog_posts = paginator.get_page(page_number)\n    return render(request, 'blog.html', {'blog_posts': blog_posts})\ndef contact(request):\n    if request.method == 'POST':\n        name = request.POST.get('name')\n        email = request.POST.get('email')",
+        "detail": "main.views",
+        "documentation": {}
+    },
+    {
+        "label": "contact",
+        "kind": 2,
+        "importPath": "main.views",
+        "description": "main.views",
+        "peekOfCode": "def contact(request):\n    if request.method == 'POST':\n        name = request.POST.get('name')\n        email = request.POST.get('email')\n        subject = request.POST.get('subject')\n        message = request.POST.get('message')\n        Contact.objects.create(name=name, email=email, subject=subject, message=message)\n        return redirect('contact')\n    return render(request, 'contact.html')\ndef work_single(request, project_id):",
+        "detail": "main.views",
+        "documentation": {}
+    },
+    {
+        "label": "work_single",
+        "kind": 2,
+        "importPath": "main.views",
+        "description": "main.views",
+        "peekOfCode": "def work_single(request, project_id):\n    project = Project.objects.get(id=project_id)\n    return render(request, 'work-single.html', {'project': project})\ndef blog_single(request, post_id):\n    post = BlogPost.objects.get(id=post_id)\n    recent_posts = BlogPost.objects.exclude(id=post_id)[:3]\n    return render(request, 'blog-single.html', {'post': post, 'recent_posts': recent_posts})\ndef main(request):\n    return render(request, 'main.html')\ndef subscribe(request):",
+        "detail": "main.views",
+        "documentation": {}
+    },
+    {
+        "label": "blog_single",
+        "kind": 2,
+        "importPath": "main.views",
+        "description": "main.views",
+        "peekOfCode": "def blog_single(request, post_id):\n    post = BlogPost.objects.get(id=post_id)\n    recent_posts = BlogPost.objects.exclude(id=post_id)[:3]\n    return render(request, 'blog-single.html', {'post': post, 'recent_posts': recent_posts})\ndef main(request):\n    return render(request, 'main.html')\ndef subscribe(request):\n    if request.method == 'POST':\n        email = request.POST.get('email')\n        return redirect('index')",
+        "detail": "main.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "main.views",
+        "description": "main.views",
+        "peekOfCode": "def main(request):\n    return render(request, 'main.html')\ndef subscribe(request):\n    if request.method == 'POST':\n        email = request.POST.get('email')\n        return redirect('index')\n    return redirect('index')\ndef admin_login(request):\n    if request.method == 'POST':\n        username = request.POST.get('username')",
+        "detail": "main.views",
+        "documentation": {}
+    },
+    {
+        "label": "subscribe",
+        "kind": 2,
+        "importPath": "main.views",
+        "description": "main.views",
+        "peekOfCode": "def subscribe(request):\n    if request.method == 'POST':\n        email = request.POST.get('email')\n        return redirect('index')\n    return redirect('index')\ndef admin_login(request):\n    if request.method == 'POST':\n        username = request.POST.get('username')\n        password = request.POST.get('password')\n        user = authenticate(request, username=username, password=password)",
+        "detail": "main.views",
+        "documentation": {}
+    },
+    {
+        "label": "admin_login",
+        "kind": 2,
+        "importPath": "main.views",
+        "description": "main.views",
+        "peekOfCode": "def admin_login(request):\n    if request.method == 'POST':\n        username = request.POST.get('username')\n        password = request.POST.get('password')\n        user = authenticate(request, username=username, password=password)\n        if user is not None:\n            login(request, user)\n            messages.success(request, 'Tizimga muvaffaqiyatli kirdingiz!')\n            return redirect('admin_dashboard')\n        else:",
+        "detail": "main.views",
+        "documentation": {}
+    },
+    {
+        "label": "admin_register",
+        "kind": 2,
+        "importPath": "main.views",
+        "description": "main.views",
+        "peekOfCode": "def admin_register(request):\n    if request.method == 'POST':\n        form = UserCreationForm(request.POST)\n        if form.is_valid():\n            form.save()\n            username = form.cleaned_data.get('username')\n            messages.success(request, f'{username} uchun hisob yaratildi! Endi tizimga kirishingiz mumkin.')\n            return redirect('admin_login')\n        else:\n            for field, errors in form.errors.items():",
+        "detail": "main.views",
+        "documentation": {}
+    },
+    {
+        "label": "admin_logout",
+        "kind": 2,
+        "importPath": "main.views",
+        "description": "main.views",
+        "peekOfCode": "def admin_logout(request):\n    logout(request)\n    messages.success(request, 'Tizimdan muvaffaqiyatli chiqdingiz!')\n    return redirect('index')\ndef admin_dashboard(request):\n    if not request.user.is_authenticated:\n        messages.error(request, 'Iltimos, tizimga kiring.')\n        return redirect('admin_login')\n    section = request.GET.get('section', 'dashboard')\n    context = {'section': section, 'user': request.user}",
+        "detail": "main.views",
+        "documentation": {}
+    },
+    {
+        "label": "admin_dashboard",
+        "kind": 2,
+        "importPath": "main.views",
+        "description": "main.views",
+        "peekOfCode": "def admin_dashboard(request):\n    if not request.user.is_authenticated:\n        messages.error(request, 'Iltimos, tizimga kiring.')\n        return redirect('admin_login')\n    section = request.GET.get('section', 'dashboard')\n    context = {'section': section, 'user': request.user}\n    if section == 'projects':\n        context['projects'] = Project.objects.all()\n    elif section == 'blog_posts':\n        context['blog_posts'] = BlogPost.objects.all()",
+        "detail": "main.views",
+        "documentation": {}
+    },
+    {
+        "label": "admin_add_project",
+        "kind": 2,
+        "importPath": "main.views",
+        "description": "main.views",
+        "peekOfCode": "def admin_add_project(request):\n    if not request.user.is_authenticated:\n        return redirect('admin_login')\n    if request.method == 'POST':\n        form = ProjectForm(request.POST, request.FILES)\n        if form.is_valid():\n            form.save()\n            messages.success(request, 'Loyiha muvaffaqiyatli qo‘shildi!')\n            return redirect('admin_dashboard')\n        else:",
+        "detail": "main.views",
+        "documentation": {}
+    },
+    {
+        "label": "admin_edit_project",
+        "kind": 2,
+        "importPath": "main.views",
+        "description": "main.views",
+        "peekOfCode": "def admin_edit_project(request, project_id):\n    if not request.user.is_authenticated:\n        return redirect('admin_login')\n    project = get_object_or_404(Project, id=project_id)\n    if request.method == 'POST':\n        form = ProjectForm(request.POST, request.FILES, instance=project)\n        if form.is_valid():\n            form.save()\n            messages.success(request, 'Loyiha muvaffaqiyatli tahrirlandi!')\n            return redirect('admin_dashboard')",
+        "detail": "main.views",
+        "documentation": {}
+    },
+    {
+        "label": "admin_delete_project",
+        "kind": 2,
+        "importPath": "main.views",
+        "description": "main.views",
+        "peekOfCode": "def admin_delete_project(request, project_id):\n    if not request.user.is_authenticated:\n        return redirect('admin_login')\n    project = get_object_or_404(Project, id=project_id)\n    project.delete()\n    messages.success(request, 'Loyiha muvaffaqiyatli o‘chirildi!')\n    return redirect('admin_dashboard')\ndef admin_add_blog_post(request):\n    if not request.user.is_authenticated:\n        return redirect('admin_login')",
+        "detail": "main.views",
+        "documentation": {}
+    },
+    {
+        "label": "admin_add_blog_post",
+        "kind": 2,
+        "importPath": "main.views",
+        "description": "main.views",
+        "peekOfCode": "def admin_add_blog_post(request):\n    if not request.user.is_authenticated:\n        return redirect('admin_login')\n    if request.method == 'POST':\n        form = BlogPostForm(request.POST, request.FILES)\n        if form.is_valid():\n            form.save()\n            messages.success(request, 'Blog post muvaffaqiyatli qo‘shildi!')\n            return redirect('admin_dashboard')\n        else:",
+        "detail": "main.views",
+        "documentation": {}
+    },
+    {
+        "label": "admin_edit_blog_post",
+        "kind": 2,
+        "importPath": "main.views",
+        "description": "main.views",
+        "peekOfCode": "def admin_edit_blog_post(request, post_id):\n    if not request.user.is_authenticated:\n        return redirect('admin_login')\n    post = get_object_or_404(BlogPost, id=post_id)\n    if request.method == 'POST':\n        form = BlogPostForm(request.POST, request.FILES, instance=post)\n        if form.is_valid():\n            form.save()\n            messages.success(request, 'Blog post muvaffaqiyatli tahrirlandi!')\n            return redirect('admin_dashboard')",
+        "detail": "main.views",
+        "documentation": {}
+    },
+    {
+        "label": "admin_delete_blog_post",
+        "kind": 2,
+        "importPath": "main.views",
+        "description": "main.views",
+        "peekOfCode": "def admin_delete_blog_post(request, post_id):\n    if not request.user.is_authenticated:\n        return redirect('admin_login')\n    post = get_object_or_404(BlogPost, id=post_id)\n    post.delete()\n    messages.success(request, 'Blog post muvaffaqiyatli o‘chirildi!')\n    return redirect('admin_dashboard')\ndef admin_delete_contact(request, contact_id):\n    if not request.user.is_authenticated:\n        return redirect('admin_login')",
+        "detail": "main.views",
+        "documentation": {}
+    },
+    {
+        "label": "admin_delete_contact",
+        "kind": 2,
+        "importPath": "main.views",
+        "description": "main.views",
+        "peekOfCode": "def admin_delete_contact(request, contact_id):\n    if not request.user.is_authenticated:\n        return redirect('admin_login')\n    contact = get_object_or_404(Contact, id=contact_id)\n    contact.delete()\n    messages.success(request, 'Kontakt muvaffaqiyatli o‘chirildi!')\n    return redirect('admin_dashboard')\ndef admin_add_testimonial(request):\n    if not request.user.is_authenticated:\n        return redirect('admin_login')",
+        "detail": "main.views",
+        "documentation": {}
+    },
+    {
+        "label": "admin_add_testimonial",
+        "kind": 2,
+        "importPath": "main.views",
+        "description": "main.views",
+        "peekOfCode": "def admin_add_testimonial(request):\n    if not request.user.is_authenticated:\n        return redirect('admin_login')\n    if request.method == 'POST':\n        form = TestimonialForm(request.POST)\n        if form.is_valid():\n            form.save()\n            messages.success(request, 'Testimonial muvaffaqiyatli qo‘shildi!')\n            return redirect('admin_dashboard')\n        else:",
+        "detail": "main.views",
+        "documentation": {}
+    },
+    {
+        "label": "admin_edit_testimonial",
+        "kind": 2,
+        "importPath": "main.views",
+        "description": "main.views",
+        "peekOfCode": "def admin_edit_testimonial(request, testimonial_id):\n    if not request.user.is_authenticated:\n        return redirect('admin_login')\n    testimonial = get_object_or_404(Testimonial, id=testimonial_id)\n    if request.method == 'POST':\n        form = TestimonialForm(request.POST, instance=testimonial)\n        if form.is_valid():\n            form.save()\n            messages.success(request, 'Testimonial muvaffaqiyatli tahrirlandi!')\n            return redirect('admin_dashboard')",
+        "detail": "main.views",
+        "documentation": {}
+    },
+    {
+        "label": "admin_delete_testimonial",
+        "kind": 2,
+        "importPath": "main.views",
+        "description": "main.views",
+        "peekOfCode": "def admin_delete_testimonial(request, testimonial_id):\n    if not request.user.is_authenticated:\n        return redirect('admin_login')\n    testimonial = get_object_or_404(Testimonial, id=testimonial_id)\n    testimonial.delete()\n    messages.success(request, 'Testimonial muvaffaqiyatli o‘chirildi!')\n    return redirect('admin_dashboard')\ndef quote_request(request):\n    if request.method == 'POST':\n        name = request.POST.get('name')",
+        "detail": "main.views",
+        "documentation": {}
+    },
+    {
+        "label": "quote_request",
+        "kind": 2,
+        "importPath": "main.views",
+        "description": "main.views",
+        "peekOfCode": "def quote_request(request):\n    if request.method == 'POST':\n        name = request.POST.get('name')\n        email = request.POST.get('email')\n        subject = request.POST.get('subject')\n        message = request.POST.get('message')\n        # Ma'lumotlarni saqlash\n        QuoteRequest.objects.create(\n            name=name,\n            email=email,",
+        "detail": "main.views",
+        "documentation": {}
+    },
+    {
+        "label": "contact",
+        "kind": 2,
+        "importPath": "main.views",
+        "description": "main.views",
+        "peekOfCode": "def contact(request):\n    if request.method == 'POST':\n        name = request.POST.get('name')\n        email = request.POST.get('email')\n        subject = request.POST.get('subject')\n        message = request.POST.get('message')\n        # Ma'lumotlarni saqlash\n        Contact.objects.create(\n            name=name,\n            email=email,",
+        "detail": "main.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'homebuilder.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

@@ -1,0 +1,263 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard | HomeBuilder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: flex;
+            min-height: 100vh;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #2c3e50;
+            color: #fff;
+            padding-top: 20px;
+            position: fixed;
+            height: 100%;
+        }
+        .sidebar h2 {
+            text-align: center;
+            font-size: 22px;
+            margin-bottom: 30px;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            padding: 15px 20px;
+        }
+        .sidebar ul li a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+        }
+        .sidebar ul li a:hover, .sidebar ul li.active a {
+            background-color: #3498db;
+            border-radius: 5px;
+        }
+        .content {
+            margin-left: 250px;
+            padding: 20px;
+            width: calc(100% - 250px);
+        }
+        .content h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .content .card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .content table th, .content table td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .content table th {
+            background-color: #3498db;
+            color: #fff;
+        }
+        .content .btn {
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+        .btn-primary {
+            background-color: #3498db;
+            color: #fff;
+        }
+        .btn-danger {
+            background-color: #e74c3c;
+            color: #fff;
+        }
+        .alert {
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        .alert-info {
+            background-color: #d1ecf1;
+            color: #0c5460;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h2>Admin Panel</h2>
+            <ul>
+                <li class="{% if section == 'dashboard' %}active{% endif %}"><a href="{% url 'admin_dashboard' %}?section=dashboard">Dashboard</a></li>
+                <li class="{% if section == 'projects' %}active{% endif %}"><a href="{% url 'admin_dashboard' %}?section=projects">Loyihalar</a></li>
+                <li class="{% if section == 'blog_posts' %}active{% endif %}"><a href="{% url 'admin_dashboard' %}?section=blog_posts">Blog Postlar</a></li>
+                <li class="{% if section == 'contacts' %}active{% endif %}"><a href="{% url 'admin_dashboard' %}?section=contacts">Kontaktlar</a></li>
+                <li class="{% if section == 'testimonials' %}active{% endif %}"><a href="{% url 'admin_dashboard' %}?section=testimonials">Testimoniallar</a></li>
+                <li><a href="{% url 'admin_logout' %}">Chiqish</a></li>
+            </ul>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+            <h1>Xush kelibsiz, {{ user.username }}!</h1>
+
+            {% if messages %}
+                <div class="alert alert-info">
+                    {% for message in messages %}
+                        <p>{{ message }}</p>
+                    {% endfor %}
+                </div>
+            {% endif %}
+
+            {% if section == 'dashboard' or not section %}
+                <div class="card">
+                    <h3>Dashboard</h3>
+                    <p>Bu yerda siz loyihalar, blog postlar, kontaktlar va testimoniallarni boshqarishingiz mumkin.</p>
+                </div>
+            {% elif section == 'projects' %}
+                <div class="card">
+                    <h3>Loyihalar</h3>
+                    <a href="{% url 'admin_add_project' %}" class="btn btn-primary">Yangi Loyiha Qo‘shish</a>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nomi</th>
+                                <th>Kategoriya</th>
+                                <th>Sana</th>
+                                <th>Amallar</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for project in projects %}
+                                <tr>
+                                    <td>{{ project.title }}</td>
+                                    <td>{{ project.category }}</td>
+                                    <td>{{ project.date }}</td>
+                                    <td>
+                                        <a href="{% url 'admin_edit_project' project.id %}" class="btn btn-primary">Tahrirlash</a>
+                                        <a href="{% url 'admin_delete_project' project.id %}" class="btn btn-danger" onclick="return confirm('Bu loyihani o‘chirishni xohlaysizmi?')">O‘chirish</a>
+                                    </td>
+                                </tr>
+                            {% empty %}
+                                <tr>
+                                    <td colspan="4">Hozircha loyihalar yo‘q.</td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            {% elif section == 'blog_posts' %}
+                <div class="card">
+                    <h3>Blog Postlar</h3>
+                    <a href="{% url 'admin_add_blog_post' %}" class="btn btn-primary">Yangi Post Qo‘shish</a>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nomi</th>
+                                <th>Muallif</th>
+                                <th>Sana</th>
+                                <th>Amallar</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for post in blog_posts %}
+                                <tr>
+                                    <td>{{ post.title }}</td>
+                                    <td>{{ post.author }}</td>
+                                    <td>{{ post.date }}</td>
+                                    <td>
+                                        <a href="{% url 'admin_edit_blog_post' post.id %}" class="btn btn-primary">Tahrirlash</a>
+                                        <a href="{% url 'admin_delete_blog_post' post.id %}" class="btn btn-danger" onclick="return confirm('Bu postni o‘chirishni xohlaysizmi?')">O‘chirish</a>
+                                    </td>
+                                </tr>
+                            {% empty %}
+                                <tr>
+                                    <td colspan="4">Hozircha blog postlar yo‘q.</td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            {% elif section == 'contacts' %}
+                <div class="card">
+                    <h3>Kontaktlar</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Ism</th>
+                                <th>Email</th>
+                                <th>Mavzu</th>
+                                <th>Amallar</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for contact in contacts %}
+                                <tr>
+                                    <td>{{ contact.name }}</td>
+                                    <td>{{ contact.email }}</td>
+                                    <td>{{ contact.subject }}</td>
+                                    <td>
+                                        <a href="{% url 'admin_delete_contact' contact.id %}" class="btn btn-danger" onclick="return confirm('Bu kontaktni o‘chirishni xohlaysizmi?')">O‘chirish</a>
+                                    </td>
+                                </tr>
+                            {% empty %}
+                                <tr>
+                                    <td colspan="4">Hozircha kontaktlar yo‘q.</td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            {% elif section == 'testimonials' %}
+                <div class="card">
+                    <h3>Testimoniallar</h3>
+                    <a href="{% url 'admin_add_testimonial' %}" class="btn btn-primary">Yangi Testimonial Qo‘shish</a>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Ism</th>
+                                <th>Lavozim</th>
+                                <th>Amallar</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for testimonial in testimonials %}
+                                <tr>
+                                    <td>{{ testimonial.name }}</td>
+                                    <td>{{ testimonial.position }}</td>
+                                    <td>
+                                        <a href="{% url 'admin_edit_testimonial' testimonial.id %}" class="btn btn-primary">Tahrirlash</a>
+                                        <a href="{% url 'admin_delete_testimonial' testimonial.id %}" class="btn btn-danger" onclick="return confirm('Bu testimonialni o‘chirishni xohlaysizmi?')">O‘chirish</a>
+                                    </td>
+                                </tr>
+                            {% empty %}
+                                <tr>
+                                    <td colspan="3">Hozircha testimoniallar yo‘q.</td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>

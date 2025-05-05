@@ -1,0 +1,30 @@
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.index, name='index'),
+    path('project/', views.project, name='project'),
+    path('about/', views.about, name='about'),
+    path('team/', views.team, name='team'),
+    path('blog/', views.blog, name='blog'),
+    path('contact/', views.contact, name='contact'),
+    path('work-single/<int:project_id>/', views.work_single, name='work_single'),
+    path('blog-single/<int:post_id>/', views.blog_single, name='blog_single'),
+    path('main/', views.main, name='main'),
+    path('subscribe/', views.subscribe, name='subscribe'),
+    path('quote-request/', views.quote_request, name='quote_request'),
+    path('custom-admin/login/', views.admin_login, name='admin_login'),
+    path('custom-admin/register/', views.admin_register, name='admin_register'),
+    path('custom-admin/logout/', views.admin_logout, name='admin_logout'),
+    path('custom-admin/dashboard/', views.admin_dashboard, name='admin_dashboard'),
+    path('custom-admin/add-project/', views.admin_add_project, name='admin_add_project'),
+    path('custom-admin/edit-project/<int:project_id>/', views.admin_edit_project, name='admin_edit_project'),
+    path('custom-admin/delete-project/<int:project_id>/', views.admin_delete_project, name='admin_delete_project'),
+    path('custom-admin/add-blog-post/', views.admin_add_blog_post, name='admin_add_blog_post'),
+    path('custom-admin/edit-blog-post/<int:post_id>/', views.admin_edit_blog_post, name='admin_edit_blog_post'),
+    path('custom-admin/delete-blog-post/<int:post_id>/', views.admin_delete_blog_post, name='admin_delete_blog_post'),
+    path('custom-admin/delete-contact/<int:contact_id>/', views.admin_delete_contact, name='admin_delete_contact'),
+    path('custom-admin/add-testimonial/', views.admin_add_testimonial, name='admin_add_testimonial'),
+    path('custom-admin/edit-testimonial/<int:testimonial_id>/', views.admin_edit_testimonial, name='admin_edit_testimonial'),
+    path('custom-admin/delete-testimonial/<int:testimonial_id>/', views.admin_delete_testimonial, name='admin_delete_testimonial'),
+]

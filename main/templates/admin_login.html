@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Admin Login | HomeBuilder{% endblock %}
+
+{% block content %}
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center mb-5">
+                    <h2 class="heading-section">Admin Login</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-5">
+                    <div class="login-wrap p-4 p-md-5">
+                        <h3 class="mb-4">Sign In</h3>
+                        {% if messages %}
+                            <div class="alert alert-info">
+                                {% for message in messages %}
+                                    <p>{{ message }}</p>
+                                {% endfor %}
+                            </div>
+                        {% endif %}
+                        <form method="POST" class="login-form">
+                            {% csrf_token %}
+                            <div class="form-group">
+                                <input type="text" name="username" class="form-control rounded-left" placeholder="Username" required>
+                            </div>
+                            <div class="form-group d-flex">
+                                <input type="password" name="password" class="form-control rounded-left" placeholder="Password" required>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary rounded submit p-3 px-5">Login</button>
+                            </div>
+                            <div class="form-group">
+                                <p>Don't have an account? <a href="{% url 'admin_register' %}">Register here</a></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
